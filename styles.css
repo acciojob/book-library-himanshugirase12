@@ -1,31 +1,33 @@
 /*  your css code here. If applicable */
-
-.book-library{
+body{
 	background-color:#f8f8f8;
-	margin:0;
 }
+.book-library .white{
+	
+	height:20px;
+	background-color:white;
+}
+
 
 h1{
 	text-align:center;
 }
 
+
 .book{
 	h2{
-		
+		margin-left:10px;
 		font-weight:900;
 		margin-bottom:0px;
 		padding-bottom:0px;
 	}
 	p{
-		color:gray;
+		margin-left:10px;
+		color:#777777;
 		margin-top:0;
 	}
 }
 
-.white{
-	height:20px;
-	background-color:white;
-}
 
 .image{
 	margin:10px;
@@ -34,6 +36,6 @@ h1{
 
 .price{
 	text-align:center;
-	background-color:limegreen;
+	background-color:#2ecc71;
 	margin:10px;
 }
