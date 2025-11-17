@@ -1,102 +1,53 @@
-body{
-	margin:0;
-	padding:0;
-	box-sizing:border-box;body{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    background-color:#f8f8f8;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
 }
 
-h1{
-    text-align:center;
+h1 {
+    text-align: center;
 }
 
-.white{
-    background-color:white;
-    height:20px;
+.book-library {
+    width: 80%;
+    margin: 0 auto;
 }
 
-img{
-    margin-top:20px;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
+.book {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
 }
 
-p{
-    color:#777777;
-    margin:0;
-    padding-left:10px;
+/* Center image */
+.book img {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
 }
 
-h2{
-    padding-left:10px;
-    margin:0;
+/* Title */
+.book h2 {
+    margin: 0;
+    padding-left: 10px;
 }
 
-.price{
-    color:white;
-    border-radius:3px;
-    padding-top:9px;
-    margin-left:10px;
-    margin-right:10px;
-    height:30px;
-    text-align:center;
-    background-color:#2ecc71;
-    margin-bottom:25px;
+/* Author color required by test */
+.book p {
+    color: #777777;
+    margin: 5px 0 15px;
+    padding-left: 10px;
 }
 
-.book{
-    border-bottom:1px solid #ddd;
-}
-
-	background-color:#f8f8f8;
-}
-
-h1{
-	text-align:center;
-}
-
-.book-library{
-	/* background-color:#ffffff; */
-}
-
-.white{
-	background-color:white;
-	height:20px;
-}
-
-img{
-	margin-top:20px;
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-p{
-	color:#777777;
-	margin:0;
-	padding-left:10px;
-}
-
-h2{
-	padding-left:10px;
-	margin:0;
-}
-
-.price{
-	color:white;
-	border-radius:3px;
-	padding-top:9px;
-	margin-left:10px;
-	margin-right:10px;
-	height:30px;
-	text-align:center;
-	background-color:#2ecc71;
-	margin-bottom:25px;
-}
-
-.book{
-	margin:0;
+/* Price block with required green bg & white text */
+.price {
+    background-color: #2ecc71; /* matches RGB in test */
+    color: white;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
 }
